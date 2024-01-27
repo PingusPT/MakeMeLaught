@@ -58,17 +58,8 @@ public class MainMenuManager : MonoBehaviour
         buttonClick.Play();
         CloseCurtains.SetActive(true);
         OpenCurtains.SetActive(false);
-
-        // Start a coroutine to activate humorSelectionWindow after 1 second
-        StartCoroutine(ActivateHumorSelectionWindowAfterDelay(1f));
+        MainMenu.SetActive(false);
     }
-
-    IEnumerator ActivateHumorSelectionWindowAfterDelay(float delay)
-    {
-        yield return new WaitForSeconds(delay);
-        humorSelectionWindow.SetActive(true);
-    }
-
 
     //Abrir menu de audio
     public void OpenAudioWindow()

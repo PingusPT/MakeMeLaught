@@ -5,6 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class ButtonControl : MonoBehaviour
 {
+    public GameObject cortinasAbrir;
+    public GameObject cortinasFechar;
+
     public void LoadMainMenu()
     {
         SceneManager.LoadScene("MainMenu");
@@ -12,6 +15,16 @@ public class ButtonControl : MonoBehaviour
 
     public void LoadJokeLevelScene()
     {
+        if (cortinasAbrir != null)
+        {
+            cortinasAbrir.SetActive(true);
+
+        }
+        if (cortinasFechar != null)
+        {
+            cortinasFechar.SetActive(true);
+
+        }
         // Invoke the LoadSceneDelayed method with a delay of 3 seconds
         Invoke("LoadSceneDelayed", 3f);
     }
