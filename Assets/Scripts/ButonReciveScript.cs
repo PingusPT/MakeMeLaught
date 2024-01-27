@@ -6,7 +6,7 @@ using TMPro;
 public class ButonReciveScript : MonoBehaviour
 {
 
-    public static ButonReciveScript intance;
+    static public ButonReciveScript intance;
 
     [SerializeField] TextMeshProUGUI textMesh1, textMesh2, textMesh3;
 
@@ -14,8 +14,16 @@ public class ButonReciveScript : MonoBehaviour
     string[] answerButtons = { "", "", "" };
 
 
+    [Header("velocidadeTexto")]
+    [SerializeField]
+    float typingSpeed = .1f;
+    [SerializeField]
+    int DamageforWrong = -1;
+    [SerializeField]
+    int HealForGood = 1;
 
-    float typingSpeed = .5f;
+
+
     int joke = 0;
     int saveJoke;
     bool Corect = false;
@@ -67,18 +75,19 @@ public class ButonReciveScript : MonoBehaviour
     public void Option1()
     {
         Corect = (saveJoke == 0) ? true : false;
-
+        IsCorrect();
     }
 
     public void Option2()
     {
         Corect = (saveJoke == 1) ? true : false;
-
+        IsCorrect();
     }
 
     public void Option3()
     {
         Corect = (saveJoke == 2) ? true : false;
+        IsCorrect();
 
     }
 
@@ -86,11 +95,11 @@ public class ButonReciveScript : MonoBehaviour
     {
         if (Corect)
         {
-            //Call animation Correct
+            GameManagerScript.intance.ChangeHealth(HealForGood);
         }
         else
         {
-            //Call Wrong
+            GameManagerScript.intance.ChangeHealth(DamageforWrong);
         }
     }
 
