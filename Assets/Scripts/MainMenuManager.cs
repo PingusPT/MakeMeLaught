@@ -1,0 +1,67 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class MainMenuManager : MonoBehaviour
+{
+    [Header("Main Vars")]
+    [SerializeField] string lightHumorSceneName;
+    [SerializeField] string darkHumorSceneName;
+    [Space]
+    [SerializeField] GameObject humorSelectionWindow;
+    [SerializeField] GameObject audioSettingsWindow;
+
+    AudioSource buttonClick;
+
+    void Start()
+    {
+        buttonClick = transform.GetComponent<AudioSource>();
+    }
+
+    //Abrir menu de seleção de tipo de humor
+    public void PlayButtonClick()
+    {
+        buttonClick.Play();
+        humorSelectionWindow.SetActive(true);
+    }
+
+    //Abrir menu de audio
+    public void OpenAudioWindow()
+    {
+        buttonClick.Play();
+        audioSettingsWindow.SetActive(true);
+    }
+
+    //Fechar menus
+    public void BackButtonClick()
+    {
+        buttonClick.Play();
+        humorSelectionWindow.SetActive(false);
+        audioSettingsWindow.SetActive(false);
+    }
+
+    //Ir para cena de humor leve
+    public void GoToLightHumorScene()
+    {
+        buttonClick.Play();
+        Debug.Log("Ir para light humor");
+        SceneManager.LoadScene(lightHumorSceneName);
+    }
+
+    //Ir para cena de humor negro
+    public void GoToDarkHumor()
+    {
+        buttonClick.Play();
+        Debug.Log("Ir para dark humor");
+        SceneManager.LoadScene(darkHumorSceneName);
+    }
+
+    //Sair do jogo
+    public void ExitGame()
+    {
+        buttonClick.Play();
+        Debug.Log("Sair");
+        Application.Quit();
+    }
+}
