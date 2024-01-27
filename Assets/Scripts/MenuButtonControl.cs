@@ -10,6 +10,21 @@ public class ButtonControl : MonoBehaviour
 
     public void LoadMainMenu()
     {
+        if (cortinasAbrir != null)
+        {
+            cortinasAbrir.SetActive(false);
+
+        }
+        if (cortinasFechar != null)
+        {
+            cortinasFechar.SetActive(true);
+
+        }
+        Invoke("LoadDelayMainMenu", 3f);
+
+    }
+    private void LoadDelayMainMenu()
+    {
         SceneManager.LoadScene("MainMenu");
     }
 
@@ -22,27 +37,55 @@ public class ButtonControl : MonoBehaviour
         }
         if (cortinasFechar != null)
         {
-            cortinasFechar.SetActive(true);
+            cortinasFechar.SetActive(false);
 
         }
-        // Invoke the LoadSceneDelayed method with a delay of 3 seconds
-        Invoke("LoadSceneDelayed", 3f);
+        Invoke("LoadDelayJokeScene", 3f);
     }
 
-    private void LoadSceneDelayed()
+    private void LoadDelayJokeScene()
     {
-        // This method will be called after the specified delay
         SceneManager.LoadScene("JokeLevelScene");
     }
 
     public void LoadFamilyFriendlyGameScene()
     {
-        SceneManager.LoadScene("FamilyFriendlyGameScene");
+        if (cortinasAbrir != null)
+        {
+            cortinasAbrir.SetActive(false);
+
+        }
+        if (cortinasFechar != null)
+        {
+            cortinasFechar.SetActive(true);
+
+        }
+        Invoke("LoadDelayFamilyFriendly", 3f);
+        
+    }
+    private void LoadDelayFamilyFriendly()
+    {
+        SceneManager.LoadScene("FamilyFriendlyGameScene"); ;
     }
 
     public void LoadNotFamilyFriendlyGameScene()
     {
-        SceneManager.LoadScene("NotFamilyFriendlyGameScene");
+        if (cortinasAbrir != null)
+        {
+            cortinasAbrir.SetActive(false);
+
+        }
+        if (cortinasFechar != null)
+        {
+            cortinasFechar.SetActive(true);
+
+        }
+        Invoke("LoadDelayNotFamilyFriendly", 3f);
+
+    }
+    private void LoadDelayNotFamilyFriendly()
+    {
+        SceneManager.LoadScene("NotFamilyFriendlyGameScene"); ;
     }
 
     public void QuitGame()
