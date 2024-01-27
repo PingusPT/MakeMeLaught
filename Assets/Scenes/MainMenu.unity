@@ -2932,7 +2932,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb0df44b5e4c589458ca5f9ed9010eda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  yourButton: {fileID: 1255126523}
+  cortinasAbrir: {fileID: 752779994}
+  cortinasFechar: {fileID: 2082840956}
 --- !u!1 &1404369082
 GameObject:
   m_ObjectHideFlags: 0
