@@ -157,6 +157,30 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -548,7 +572,25 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Abrir_Cortina_0010_0: 5263902060470344421
+      Abrir_Cortina_0010_1: -4704134630058136766
+      Abrir_Cortina_0010_10: 5052329338092327317
+      Abrir_Cortina_0010_11: 572899971086932847
+      Abrir_Cortina_0010_12: -4869975210738257407
+      Abrir_Cortina_0010_13: -5885473476720105458
+      Abrir_Cortina_0010_14: -7674717394462673414
+      Abrir_Cortina_0010_15: -6272506381156281114
+      Abrir_Cortina_0010_16: 5023789006270216208
+      Abrir_Cortina_0010_17: 3960473087028552554
+      Abrir_Cortina_0010_2: 6306946882667064780
+      Abrir_Cortina_0010_3: 8905224746642520687
+      Abrir_Cortina_0010_4: -4344822972403907708
+      Abrir_Cortina_0010_5: 4120646380461065405
+      Abrir_Cortina_0010_6: -7118071427764786739
+      Abrir_Cortina_0010_7: 8051777259251312944
+      Abrir_Cortina_0010_8: -996833258038839880
+      Abrir_Cortina_0010_9: 8165829006663364425
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

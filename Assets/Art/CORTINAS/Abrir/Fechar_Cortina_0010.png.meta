@@ -97,7 +97,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -147,6 +147,30 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -541,14 +565,32 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Fechar_Cortina_0010_0: -3080675976531600549
+      Fechar_Cortina_0010_1: 2943756425061221182
+      Fechar_Cortina_0010_10: -3361730020315416941
+      Fechar_Cortina_0010_11: -109102823061099077
+      Fechar_Cortina_0010_12: 8361672686023532978
+      Fechar_Cortina_0010_13: -5141177758491284003
+      Fechar_Cortina_0010_14: 1462751479049893927
+      Fechar_Cortina_0010_15: 7913988170952364883
+      Fechar_Cortina_0010_16: 2372977023845459328
+      Fechar_Cortina_0010_17: 1033449308780298606
+      Fechar_Cortina_0010_2: 4667153898935944934
+      Fechar_Cortina_0010_3: 4573953662234880781
+      Fechar_Cortina_0010_4: 5220527878550319821
+      Fechar_Cortina_0010_5: -1541970928705781733
+      Fechar_Cortina_0010_6: -3309897692301815746
+      Fechar_Cortina_0010_7: 6453184867072741154
+      Fechar_Cortina_0010_8: -976271461250605461
+      Fechar_Cortina_0010_9: -1237049788412101376
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

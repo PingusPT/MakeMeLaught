@@ -193,6 +193,30 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -836,7 +860,37 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Abrir_Cortina_0000_0: 4877051169193803968
+      Abrir_Cortina_0000_1: 8158437075659278522
+      Abrir_Cortina_0000_10: 740596517829201969
+      Abrir_Cortina_0000_11: -2265265210245124494
+      Abrir_Cortina_0000_12: -2323122906600983356
+      Abrir_Cortina_0000_13: -9055993766673751228
+      Abrir_Cortina_0000_14: 2592773782937468469
+      Abrir_Cortina_0000_15: 1565807731072106651
+      Abrir_Cortina_0000_16: 5201871413640028870
+      Abrir_Cortina_0000_17: 4175931755397130191
+      Abrir_Cortina_0000_18: -5238425411810012706
+      Abrir_Cortina_0000_19: -8873471074157642528
+      Abrir_Cortina_0000_2: 2449731456527206478
+      Abrir_Cortina_0000_20: 8346121191362402344
+      Abrir_Cortina_0000_21: 6515343713463969810
+      Abrir_Cortina_0000_22: 7400405802806613463
+      Abrir_Cortina_0000_23: 2665586977870760914
+      Abrir_Cortina_0000_24: -5376091197357433651
+      Abrir_Cortina_0000_25: -4975579635755086991
+      Abrir_Cortina_0000_26: -6527049805018283651
+      Abrir_Cortina_0000_27: 3271706673518597423
+      Abrir_Cortina_0000_28: -8906601834119678156
+      Abrir_Cortina_0000_29: 4749526893804376293
+      Abrir_Cortina_0000_3: -3629842466421858552
+      Abrir_Cortina_0000_4: 2056232781393817224
+      Abrir_Cortina_0000_5: -5467003344672130946
+      Abrir_Cortina_0000_6: 5403888380492167604
+      Abrir_Cortina_0000_7: -4843489467088826962
+      Abrir_Cortina_0000_8: -2837376606980567043
+      Abrir_Cortina_0000_9: -332384726428639292
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
