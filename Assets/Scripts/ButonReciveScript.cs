@@ -9,14 +9,18 @@ public class ButonReciveScript : MonoBehaviour
     public static ButonReciveScript intance;
 
     [SerializeField] TextMeshProUGUI textMesh1, textMesh2, textMesh3;
-    
 
-    string[] answerButtons = {"","",""};
 
-    
+    string[] answerButtons = { "", "", "" };
+
+
 
     float typingSpeed = .5f;
     int joke = 0;
+    int saveJoke;
+    bool Corect = false;
+
+
     void Start()
     {
         intance = this;
@@ -25,66 +29,34 @@ public class ButonReciveScript : MonoBehaviour
     // Update is called once per frame
     public void GetCorrectAnswer()
     {
+        Corect = false;
+
         joke = TextSystemScript.intance.GetCurrentJoke(); // Pega na joke certa
 
 
-        int saveJoke = Random.Range(0, 4);
-        answerButtons[saveJoke] = TextSystemScript.intance.PunchLines[joke]; // save joke correta
-        for (int i = 0; i < 3; i++)
+        saveJoke = Random.Range(0, 3);
+        answerButtons[saveJoke] = TextSystemScript.intance.PunchLines[joke]; // save joke correta num sitio aleadorio guarda essa no SaveJoke
+        int indexChanged = saveJoke;
+        for (int i = 0; i < 3; i++) // Roda todos os butoes
         {
-            if(i != saveJoke)
+
+            if (i != saveJoke) // se o butao for o da resposta correta nao troca
             {
 
-            
-                while (saveJoke == Random.Range(0, TextSystemScript.intance.PunchLines.Length - 1))
+                int a = joke;
+                while (joke == a || answerButtons[indexChanged] == answerButtons[i])
                 {
-                    answerButtons[] = TextSystemScript.intance.PunchLines[0, TextSystemScript.intance.PunchLines.Length - 1];
+                    Debug.Log(indexChanged);
+                    a = Random.Range(0, TextSystemScript.intance.PunchLines.Length);
+                    Debug.Log("times");
+                    answerButtons[i] = TextSystemScript.intance.PunchLines[a];
+
                 }
-            }
-        }
-        
-    }
-}
-        
-
-
-        /*
-        for (int i = 0; i < 3; i++)
-        {//        
-
-            int flag = 0;
-           while( answerButtons[i] == answerButtons[saveJoke]) // Escolhe joke para as outras  CUIDADO COM ESTA MERDA
-           {
-                if(answerButtons[saveJoke] == answerButtons[i])
-                {
-                    return;
-                }
-                answerButtons[i] = TextSystemScript.intance.PunchLines[Random.Range(0, TextSystemScript.intance.PunchLines.Length)];
-                
-                Debug.Log(answerButtons[i] + " |  " + answerButtons[saveJoke] + " !  "  + flag);
-                flag++;
-           }
-        }
-        */
-
-        for (int i = 0; i < answerButtons.Length; i++)
-        {
-            if (i == correctButtonIndex)
-            {
-                // Se for o botão correto, use uma resposta do array de strings
-                answerButtons[i].GetComponentInChildren<TextMeshProUGUI>().text = punchLines[0]; // Supondo que o índice 0 contenha a resposta correta
-            }
-            else
-            {
-                // Se for outro botão, use uma punch line aleatória
-                int randomIndex = Random.Range(1, punchLines.Length); // Evitando a resposta correta
-                answerButtons[i].GetComponentInChildren<TextMeshProUGUI>().text = punchLines[randomIndex];
+                indexChanged = i;
             }
 
-            // Adicione um listener de clique para cada botão
-            int buttonIndex = i; // Precisamos disso para evitar o closure loop
-            answerButtons[i].onClick.AddListener(() => ButtonClick(buttonIndex));
         }
+
 
         StartCoroutine(TypeText(answerButtons[0], textMesh1));
         StartCoroutine(TypeText(answerButtons[1], textMesh2));
@@ -94,30 +66,34 @@ public class ButonReciveScript : MonoBehaviour
 
     public void Option1()
     {
-        
+        Corect = (saveJoke == 0) ? true : false;
+
     }
 
     public void Option2()
     {
-        
+        Corect = (saveJoke == 1) ? true : false;
+
     }
 
     public void Option3()
     {
-       
+        Corect = (saveJoke == 2) ? true : false;
+
     }
 
-    void ShuffleArray(string[] array)
+    public void IsCorrect()
     {
-        // Algoritmo de embaralhamento Fisher-Yates
-        for (int i = array.Length - 1; i > 0; i--)
+        if (Corect)
         {
-            int j = Random.Range(0, i + 1);
-            string temp = array[i];
-            array[i] = array[j];
-            array[j] = temp;
+            //Call animation Correct
+        }
+        else
+        {
+            //Call Wrong
         }
     }
+
     public IEnumerator TypeText(string fullText, TextMeshProUGUI textMeshPro)
     {
         string currentText = "";
@@ -129,6 +105,4 @@ public class ButonReciveScript : MonoBehaviour
             yield return new WaitForSeconds(typingSpeed);
         }
     }
-
-    
 }
