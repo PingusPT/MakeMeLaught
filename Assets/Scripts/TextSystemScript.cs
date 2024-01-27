@@ -8,7 +8,7 @@ public class TextSystemScript : MonoBehaviour
 
     public static TextSystemScript intance;
 
-    private TextMeshProUGUI textMeshPro;
+    [SerializeField] TextMeshProUGUI textMeshPro;
 
     [Header("Jokes")]
     public string[] Jokes;
@@ -16,15 +16,16 @@ public class TextSystemScript : MonoBehaviour
     [Header("Variables")]
     public float typingSpeed = 0.05f;
     public int SpaceLines = 2;
-    
-    
+    public float timeBetwenQuestions = 1f;
+    string currentText = "";
+
+
 
     int CurrentJoke = 0;
 
     void Start()
     {
         intance = this;
-        textMeshPro = GetComponent<TextMeshProUGUI>();
     }
 
     private void Update()
@@ -39,9 +40,13 @@ public class TextSystemScript : MonoBehaviour
         return Random.Range(0, Jokes.Length - 1);
     }
 
-    public IEnumerator TypeText(string fullText, TextMeshProUGUI textMeshPro)
+    public IEnumerator TypeText(string fullText, TextMeshProUGUI textMeshPro, bool newString)
     {
-        string currentText = "";
+        if(newString)
+        {
+            currentText = "";
+        }
+         
 
         foreach (char c in fullText)
         {
@@ -53,9 +58,15 @@ public class TextSystemScript : MonoBehaviour
         yield return new WaitForSeconds(1f);
 
         ButonReciveScript.intance.GetCorrectAnswer();
+
+        if(newString)
+        {
+            yield return new WaitForSeconds(timeBetwenQuestions);
+            GetRandomJoke();
+        }
     }
 
-    private void AddEnters(int spaces)
+    public void AddEnters(int spaces)
     {
 
         for (int i = 0; i < spaces; i++)
@@ -64,10 +75,15 @@ public class TextSystemScript : MonoBehaviour
         }
     }
 
+    public void AddPunchLine(string PunchLine)
+    {
+        StartCoroutine(TypeText(PunchLine, textMeshPro, false));
+    }
+
     public void GetRandomJoke()
     {
         CurrentJoke = ChooseRandomJoke();
-        StartCoroutine(TypeText(Jokes[CurrentJoke], textMeshPro));
+        StartCoroutine(TypeText(Jokes[CurrentJoke], textMeshPro, true));
 
     }
 
