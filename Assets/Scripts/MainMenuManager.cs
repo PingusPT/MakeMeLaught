@@ -12,12 +12,14 @@ public class MainMenuManager : MonoBehaviour
     [SerializeField] GameObject humorSelectionWindow;
     [SerializeField] GameObject audioSettingsWindow;
 
-    [Header("Timer Settings")]
+    [Header("Main Menu Opening")]
     [SerializeField] float timerDuration = 5f;
     [SerializeField] GameObject MainMenu;
     [SerializeField] GameObject OpenCurtains;
     [SerializeField] GameObject Curtains;
 
+    [Header("Animations for main to humor")]
+    [SerializeField] GameObject CloseCurtains;
 
     AudioSource buttonClick;
 
@@ -54,8 +56,19 @@ public class MainMenuManager : MonoBehaviour
     public void PlayButtonClick()
     {
         buttonClick.Play();
+        CloseCurtains.SetActive(true);
+        OpenCurtains.SetActive(false);
+
+        // Start a coroutine to activate humorSelectionWindow after 1 second
+        StartCoroutine(ActivateHumorSelectionWindowAfterDelay(1f));
+    }
+
+    IEnumerator ActivateHumorSelectionWindowAfterDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
         humorSelectionWindow.SetActive(true);
     }
+
 
     //Abrir menu de audio
     public void OpenAudioWindow()

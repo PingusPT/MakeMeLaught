@@ -6,6 +6,22 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/MainMenu.unity
+    guid: 4d1b21815a5cb14419700d7e571ac4d8
+  - enabled: 1
+    path: Assets/Scenes/JokeLevelScene.unity
+    guid: bb0cdb3fa8d308a4aa4bb97256174d08
+  - enabled: 1
+    path: Assets/Scenes/FamilyFriendlyGameScene.unity
+    guid: 9f5cb375e801fa240a605ac0186cb26a
+  - enabled: 1
+    path: Assets/Scenes/NotFamilyFriendlyGameScene.unity
+    guid: 5104d475d9598d84cb42d848e82dfb7f
+  - enabled: 1
+    path: Assets/Scenes/WinScenario.unity
+    guid: b8219fa93f1939c4da3f693ccb258f88
+  - enabled: 1
+    path: Assets/Scenes/GameOverScenario.unity
+    guid: dbc2ecd9cc4a6014498e1b43034fe3cb
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0
