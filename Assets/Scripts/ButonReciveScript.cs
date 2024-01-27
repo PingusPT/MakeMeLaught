@@ -74,18 +74,24 @@ public class ButonReciveScript : MonoBehaviour
 
     public void Option1()
     {
+        TextSystemScript.intance.AddEnters(2);
+        TextSystemScript.intance.AddPunchLine(answerButtons[0]);
         Corect = (saveJoke == 0) ? true : false;
         IsCorrect();
     }
 
     public void Option2()
     {
+        TextSystemScript.intance.AddEnters(2);
+        TextSystemScript.intance.AddPunchLine(answerButtons[1]);
         Corect = (saveJoke == 1) ? true : false;
         IsCorrect();
     }
 
     public void Option3()
     {
+        TextSystemScript.intance.AddEnters(2);
+        TextSystemScript.intance.AddPunchLine(answerButtons[2]);
         Corect = (saveJoke == 2) ? true : false;
         IsCorrect();
 
