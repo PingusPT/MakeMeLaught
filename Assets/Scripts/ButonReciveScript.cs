@@ -6,7 +6,7 @@ using TMPro;
 public class ButonReciveScript : MonoBehaviour
 {
 
-    static public ButonReciveScript intance;
+    public static ButonReciveScript intance;
 
     [SerializeField] TextMeshProUGUI textMesh1, textMesh2, textMesh3;
 
@@ -15,7 +15,7 @@ public class ButonReciveScript : MonoBehaviour
 
 
 
-    float typingSpeed = .1f;
+    float typingSpeed = .5f;
     int joke = 0;
     int saveJoke;
     bool Corect = false;
@@ -105,6 +105,4 @@ public class ButonReciveScript : MonoBehaviour
             yield return new WaitForSeconds(typingSpeed);
         }
     }
-
-
 }

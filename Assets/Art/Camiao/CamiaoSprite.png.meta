@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 58dd501c29452834d924ef0e68286cbf
+guid: 46da4af6e30c4cd45bb03b8ff0b3134f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6756400617395346433
-    second: Abrir_Cortina_0016_0
+      213: -4467516235915181628
+    second: CamiaoSprite_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -46,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -95,18 +95,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -134,13 +122,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Abrir_Cortina_0016_0
+      name: CamiaoSprite_0
       rect:
         serializedVersion: 2
-        x: 83
-        y: 9
-        width: 1716
-        height: 1019
+        x: 75
+        y: 177
+        width: 1648
+        height: 767
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -148,8 +136,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ff3abe77f617c32a0800000000000000
-      internalID: -6756400617395346433
+      spriteID: 4c14cf147a13002c0800000000000000
+      internalID: -4467516235915181628
       vertices: []
       indices: 
       edges: []
@@ -157,7 +145,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -165,7 +153,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Abrir_Cortina_0016_0: -6756400617395346433
+      CamiaoSprite_0: -4467516235915181628
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
