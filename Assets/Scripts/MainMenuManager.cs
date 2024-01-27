@@ -12,12 +12,43 @@ public class MainMenuManager : MonoBehaviour
     [SerializeField] GameObject humorSelectionWindow;
     [SerializeField] GameObject audioSettingsWindow;
 
+    [Header("Timer Settings")]
+    [SerializeField] float timerDuration = 5f;
+    [SerializeField] GameObject MainMenu;
+    [SerializeField] GameObject OpenCurtains;
+    [SerializeField] GameObject Curtains;
+
+
     AudioSource buttonClick;
 
     void Start()
     {
         buttonClick = transform.GetComponent<AudioSource>();
+        StartTimer();
     }
+
+    void StartTimer()
+    {
+        Invoke("EnableGameObjectAfterTimer", timerDuration);
+    }
+
+    void EnableGameObjectAfterTimer()
+    {
+        // Enable the specified GameObject after the timer ends
+        if (MainMenu != null)
+        {
+            MainMenu.SetActive(true);
+        }
+        if (OpenCurtains != null)
+        {
+            OpenCurtains.SetActive(true);
+        }
+        if (Curtains != null)
+        {
+            Curtains.SetActive(false);
+        }
+    }
+
 
     //Abrir menu de seleção de tipo de humor
     public void PlayButtonClick()
@@ -65,3 +96,6 @@ public class MainMenuManager : MonoBehaviour
         Application.Quit();
     }
 }
+
+
+
