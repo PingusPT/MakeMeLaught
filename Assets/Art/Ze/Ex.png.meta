@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c84eb21f39480344582008bbcea4c1d1
+guid: c57236c107a467741aa969ec6b41f51f
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -101,10 +101,10 @@ TextureImporter:
       name: BackGround_0
       rect:
         serializedVersion: 2
-        x: 231
+        x: 119
         y: 0
-        width: 1405
-        height: 1059
+        width: 1655
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
