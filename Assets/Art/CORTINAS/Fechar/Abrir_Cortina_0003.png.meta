@@ -1,0 +1,748 @@
+fileFormatVersion: 2
+guid: 3cea8111d3f61814a87b01df6214ce4a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4309204499158797770
+    second: Abrir_Cortina_0003_0
+  - first:
+      213: 565839893653134046
+    second: Abrir_Cortina_0003_1
+  - first:
+      213: 402441890926094510
+    second: Abrir_Cortina_0003_2
+  - first:
+      213: -797573694486368312
+    second: Abrir_Cortina_0003_3
+  - first:
+      213: -4896085823373371577
+    second: Abrir_Cortina_0003_4
+  - first:
+      213: -4704169699214686347
+    second: Abrir_Cortina_0003_5
+  - first:
+      213: -815980204822463386
+    second: Abrir_Cortina_0003_6
+  - first:
+      213: -3345777635819808268
+    second: Abrir_Cortina_0003_7
+  - first:
+      213: 1337368796505769362
+    second: Abrir_Cortina_0003_8
+  - first:
+      213: 6866803840928703411
+    second: Abrir_Cortina_0003_9
+  - first:
+      213: 1838933871590588153
+    second: Abrir_Cortina_0003_10
+  - first:
+      213: 4476410372093439298
+    second: Abrir_Cortina_0003_11
+  - first:
+      213: 8333569452564417855
+    second: Abrir_Cortina_0003_12
+  - first:
+      213: -4427769089606926071
+    second: Abrir_Cortina_0003_13
+  - first:
+      213: -5153965093201517914
+    second: Abrir_Cortina_0003_14
+  - first:
+      213: 7954583255218332181
+    second: Abrir_Cortina_0003_15
+  - first:
+      213: -6839349698266503179
+    second: Abrir_Cortina_0003_16
+  - first:
+      213: 3286574666197827443
+    second: Abrir_Cortina_0003_17
+  - first:
+      213: 669700596195729570
+    second: Abrir_Cortina_0003_18
+  - first:
+      213: -3682998966458774971
+    second: Abrir_Cortina_0003_19
+  - first:
+      213: 973260002084884841
+    second: Abrir_Cortina_0003_20
+  - first:
+      213: 3333955994473074329
+    second: Abrir_Cortina_0003_21
+  - first:
+      213: 855720698285277367
+    second: Abrir_Cortina_0003_22
+  - first:
+      213: 408605153968939409
+    second: Abrir_Cortina_0003_23
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Abrir_Cortina_0003_0
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 44
+        width: 253
+        height: 959
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 632ff13d651a234c0800000000000000
+      internalID: -4309204499158797770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Abrir_Cortina_0003_1
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 906
+        width: 45
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eda90f4a2644ad700800000000000000
+      internalID: 565839893653134046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Abrir_Cortina_0003_2
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 554
+        width: 210
+        height: 454
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea8e26f74c2c59500800000000000000
+      internalID: 402441890926094510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Abrir_Cortina_0003_3
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 908
+        width: 45
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cfa1f953f27ee4f0800000000000000
+      internalID: -797573694486368312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Abrir_Cortina_0003_4
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 46
+        width: 253
+        height: 959
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 747110c52eb9d0cb0800000000000000
+      internalID: -4896085823373371577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Abrir_Cortina_0003_5
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 874
+        width: 6
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5770723159e67beb0800000000000000
+      internalID: -4704169699214686347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Abrir_Cortina_0003_6
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 876
+        width: 6
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66c7ec3b35e0da4f0800000000000000
+      internalID: -815980204822463386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Abrir_Cortina_0003_7
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 746
+        width: 27
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f9938787f86191d0800000000000000
+      internalID: -3345777635819808268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Abrir_Cortina_0003_8
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 764
+        width: 17
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2950b61b5d94f8210800000000000000
+      internalID: 1337368796505769362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Abrir_Cortina_0003_9
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 803
+        width: 65
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b3e7d026b9cb4f50800000000000000
+      internalID: 6866803840928703411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Abrir_Cortina_0003_10
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 766
+        width: 17
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fe3795fc94358910800000000000000
+      internalID: 1838933871590588153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Abrir_Cortina_0003_11
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 748
+        width: 27
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24de08134876f1e30800000000000000
+      internalID: 4476410372093439298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Abrir_Cortina_0003_12
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 670
+        width: 10
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3d06239349c6a370800000000000000
+      internalID: 8333569452564417855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Abrir_Cortina_0003_13
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 527
+        width: 44
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 901468ae8776d82c0800000000000000
+      internalID: -4427769089606926071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Abrir_Cortina_0003_14
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 529
+        width: 44
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a2e5fafd007978b0800000000000000
+      internalID: -5153965093201517914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Abrir_Cortina_0003_15
+      rect:
+        serializedVersion: 2
+        x: 1516
+        y: 672
+        width: 10
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5122f8f435b546e60800000000000000
+      internalID: 7954583255218332181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Abrir_Cortina_0003_16
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 521
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f766249fafb511a0800000000000000
+      internalID: -6839349698266503179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Abrir_Cortina_0003_17
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 523
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37ff482fe324c9d20800000000000000
+      internalID: 3286574666197827443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Abrir_Cortina_0003_18
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 453
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a02d1ed4214b4900800000000000000
+      internalID: 669700596195729570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Abrir_Cortina_0003_19
+      rect:
+        serializedVersion: 2
+        x: 1538
+        y: 455
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54a081014fb53ecc0800000000000000
+      internalID: -3682998966458774971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Abrir_Cortina_0003_20
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 372
+        width: 13
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9619d5ab0d6b18d00800000000000000
+      internalID: 973260002084884841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Abrir_Cortina_0003_21
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 374
+        width: 13
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99e0a5b1057944e20800000000000000
+      internalID: 3333955994473074329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Abrir_Cortina_0003_22
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 127
+        width: 283
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b04e38f07120eb00800000000000000
+      internalID: 855720698285277367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Abrir_Cortina_0003_23
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 45
+        width: 428
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19166bff838aba500800000000000000
+      internalID: 408605153968939409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Abrir_Cortina_0003_0: -4309204499158797770
+      Abrir_Cortina_0003_1: 565839893653134046
+      Abrir_Cortina_0003_10: 1838933871590588153
+      Abrir_Cortina_0003_11: 4476410372093439298
+      Abrir_Cortina_0003_12: 8333569452564417855
+      Abrir_Cortina_0003_13: -4427769089606926071
+      Abrir_Cortina_0003_14: -5153965093201517914
+      Abrir_Cortina_0003_15: 7954583255218332181
+      Abrir_Cortina_0003_16: -6839349698266503179
+      Abrir_Cortina_0003_17: 3286574666197827443
+      Abrir_Cortina_0003_18: 669700596195729570
+      Abrir_Cortina_0003_19: -3682998966458774971
+      Abrir_Cortina_0003_2: 402441890926094510
+      Abrir_Cortina_0003_20: 973260002084884841
+      Abrir_Cortina_0003_21: 3333955994473074329
+      Abrir_Cortina_0003_22: 855720698285277367
+      Abrir_Cortina_0003_23: 408605153968939409
+      Abrir_Cortina_0003_3: -797573694486368312
+      Abrir_Cortina_0003_4: -4896085823373371577
+      Abrir_Cortina_0003_5: -4704169699214686347
+      Abrir_Cortina_0003_6: -815980204822463386
+      Abrir_Cortina_0003_7: -3345777635819808268
+      Abrir_Cortina_0003_8: 1337368796505769362
+      Abrir_Cortina_0003_9: 6866803840928703411
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

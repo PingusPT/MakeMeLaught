@@ -1,0 +1,648 @@
+fileFormatVersion: 2
+guid: f78196b8d597c1b4dbc49b16be9e3eca
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5358177443883882724
+    second: Fechar_Cortina_0014_0
+  - first:
+      213: 5856309603902411905
+    second: Fechar_Cortina_0014_1
+  - first:
+      213: 9115045697940789607
+    second: Fechar_Cortina_0014_2
+  - first:
+      213: -8021128830860844763
+    second: Fechar_Cortina_0014_3
+  - first:
+      213: 4948435049885001377
+    second: Fechar_Cortina_0014_4
+  - first:
+      213: -3113374011943297381
+    second: Fechar_Cortina_0014_5
+  - first:
+      213: 5210033398571800424
+    second: Fechar_Cortina_0014_6
+  - first:
+      213: -703586085481754769
+    second: Fechar_Cortina_0014_7
+  - first:
+      213: 6699118738962822693
+    second: Fechar_Cortina_0014_8
+  - first:
+      213: 2348510744430940675
+    second: Fechar_Cortina_0014_9
+  - first:
+      213: -4118989650373565729
+    second: Fechar_Cortina_0014_10
+  - first:
+      213: 1521904113626438214
+    second: Fechar_Cortina_0014_11
+  - first:
+      213: -8440731608468215327
+    second: Fechar_Cortina_0014_12
+  - first:
+      213: 9093455155351819184
+    second: Fechar_Cortina_0014_13
+  - first:
+      213: 4947552295051159541
+    second: Fechar_Cortina_0014_14
+  - first:
+      213: 1083751424709287379
+    second: Fechar_Cortina_0014_15
+  - first:
+      213: -3632587753686971900
+    second: Fechar_Cortina_0014_16
+  - first:
+      213: 434775147485043089
+    second: Fechar_Cortina_0014_17
+  - first:
+      213: -1931196335703022645
+    second: Fechar_Cortina_0014_18
+  - first:
+      213: 8895703160959175081
+    second: Fechar_Cortina_0014_19
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Fechar_Cortina_0014_0
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 45
+        width: 213
+        height: 958
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e895321ff11c5a40800000000000000
+      internalID: 5358177443883882724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fechar_Cortina_0014_1
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 907
+        width: 45
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 184df438e8ac54150800000000000000
+      internalID: 5856309603902411905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fechar_Cortina_0014_2
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 555
+        width: 204
+        height: 453
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7699639c4c52f7e70800000000000000
+      internalID: 9115045697940789607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fechar_Cortina_0014_3
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 908
+        width: 45
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52125ea73d93fa090800000000000000
+      internalID: -8021128830860844763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fechar_Cortina_0014_4
+      rect:
+        serializedVersion: 2
+        x: 1586
+        y: 46
+        width: 213
+        height: 958
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a6ec7eb57f5ca440800000000000000
+      internalID: 4948435049885001377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fechar_Cortina_0014_5
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 875
+        width: 6
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9edf2dd4d21bc4d0800000000000000
+      internalID: -3113374011943297381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fechar_Cortina_0014_6
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 876
+        width: 6
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8671bc5a5c1cd4840800000000000000
+      internalID: 5210033398571800424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fechar_Cortina_0014_7
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 747
+        width: 27
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6fc3f9de2c5c36f0800000000000000
+      internalID: -703586085481754769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fechar_Cortina_0014_8
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 765
+        width: 17
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 526ba08effc08fc50800000000000000
+      internalID: 6699118738962822693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fechar_Cortina_0014_9
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 804
+        width: 65
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3029ef04416979020800000000000000
+      internalID: 2348510744430940675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fechar_Cortina_0014_10
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 766
+        width: 17
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd229ff7cb866d6c0800000000000000
+      internalID: -4118989650373565729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fechar_Cortina_0014_11
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 748
+        width: 27
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64ad8ea5ab3ee1510800000000000000
+      internalID: 1521904113626438214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fechar_Cortina_0014_12
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 528
+        width: 44
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e927d0b25f7cda80800000000000000
+      internalID: -8440731608468215327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fechar_Cortina_0014_13
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 522
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b390bbd841723e70800000000000000
+      internalID: 9093455155351819184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fechar_Cortina_0014_14
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 523
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f7613e599c39a440800000000000000
+      internalID: 4947552295051159541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fechar_Cortina_0014_15
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 529
+        width: 44
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ddde96cd224a0f00800000000000000
+      internalID: 1083751424709287379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fechar_Cortina_0014_16
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 127
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40acd0e2fa4769dc0800000000000000
+      internalID: -3632587753686971900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fechar_Cortina_0014_17
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 128
+        width: 283
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 199930f61b1a80600800000000000000
+      internalID: 434775147485043089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fechar_Cortina_0014_18
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 46
+        width: 422
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc3a2e22a230335e0800000000000000
+      internalID: -1931196335703022645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fechar_Cortina_0014_19
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 128
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a98a48b4e2e37b70800000000000000
+      internalID: 8895703160959175081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Fechar_Cortina_0014_0: 5358177443883882724
+      Fechar_Cortina_0014_1: 5856309603902411905
+      Fechar_Cortina_0014_10: -4118989650373565729
+      Fechar_Cortina_0014_11: 1521904113626438214
+      Fechar_Cortina_0014_12: -8440731608468215327
+      Fechar_Cortina_0014_13: 9093455155351819184
+      Fechar_Cortina_0014_14: 4947552295051159541
+      Fechar_Cortina_0014_15: 1083751424709287379
+      Fechar_Cortina_0014_16: -3632587753686971900
+      Fechar_Cortina_0014_17: 434775147485043089
+      Fechar_Cortina_0014_18: -1931196335703022645
+      Fechar_Cortina_0014_19: 8895703160959175081
+      Fechar_Cortina_0014_2: 9115045697940789607
+      Fechar_Cortina_0014_3: -8021128830860844763
+      Fechar_Cortina_0014_4: 4948435049885001377
+      Fechar_Cortina_0014_5: -3113374011943297381
+      Fechar_Cortina_0014_6: 5210033398571800424
+      Fechar_Cortina_0014_7: -703586085481754769
+      Fechar_Cortina_0014_8: 6699118738962822693
+      Fechar_Cortina_0014_9: 2348510744430940675
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
