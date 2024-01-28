@@ -36,6 +36,7 @@ public class ButonReciveScript : MonoBehaviour
     {
         intance = this;
         CanvasButoes.Play("ButtonDisapear", 0, 1);
+        PanelDeTexto.Play("PanelPiadaDesaparecer", 0, 1f);
     }
 
     private void Update()
