@@ -21,7 +21,7 @@ EditorBuildSettings:
     path: Assets/Scenes/NotFamilyFriendlyGameScene.unity
     guid: d60140e1fa329cf4e94cf6441c59879b
   - enabled: 1
-    path: Assets/Scenes/WinScenario.unity
+    path: Assets/Scenes/WinScenarioFamilyFriendly.unity
     guid: b8219fa93f1939c4da3f693ccb258f88
   - enabled: 1
     path: Assets/Scenes/GameOverScenario.unity
