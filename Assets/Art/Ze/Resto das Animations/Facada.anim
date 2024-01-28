@@ -92,7 +92,7 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 0.4375
-    functionName: FodaseClip
+    functionName: AieClip
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
