@@ -2120,8 +2120,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textMesh1: {fileID: 162691335}
-  textMesh2: {fileID: 1263575026}
-  textMesh3: {fileID: 947758118}
+  textMesh2: {fileID: 947758118}
+  textMesh3: {fileID: 1263575026}
   typingSpeed: 0.03
   DamageforWrong: -1
   HealForGood: 1
