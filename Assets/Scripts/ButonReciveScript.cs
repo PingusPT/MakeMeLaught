@@ -24,6 +24,8 @@ public class ButonReciveScript : MonoBehaviour
 
     [SerializeField]
     Animator CanvasButoes;
+    [SerializeField]
+    Animator PanelDeTexto;
 
     int joke = 0;
     int saveJoke;
@@ -35,6 +37,13 @@ public class ButonReciveScript : MonoBehaviour
         intance = this;
     }
 
+    private void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.S))
+        {
+            Option1();
+        }
+    }
     // Update is called once per frame
     public void GetCorrectAnswer()
     {
@@ -62,6 +71,7 @@ public class ButonReciveScript : MonoBehaviour
 
                 }
                 indexChanged = i;
+
             }
 
         }
@@ -110,6 +120,7 @@ public class ButonReciveScript : MonoBehaviour
         }
 
         CanvasButoes.Play("ButtonDisapear", 0, 0);
+        PanelDeTexto.Play("PanelPiadaDesaparecer", 0, 0);
     }
 
     public IEnumerator TypeText(string fullText, TextMeshProUGUI textMeshPro)

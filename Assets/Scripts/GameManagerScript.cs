@@ -24,6 +24,8 @@ public class GameManagerScript : MonoBehaviour
     Animator Roda1;
     [SerializeField]
     Animator Roda2;
+    [SerializeField]
+    Animator CanvasButoes;
 
 
     private void Start()

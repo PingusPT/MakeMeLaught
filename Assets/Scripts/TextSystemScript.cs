@@ -21,6 +21,8 @@ public class TextSystemScript : MonoBehaviour
 
     [SerializeField]
     Animator CanvasButoes;
+    [SerializeField]
+    Animator PanelDeTexto;
 
 
     int CurrentJoke = 0;
@@ -47,6 +49,7 @@ public class TextSystemScript : MonoBehaviour
         if(newString)
         {
             currentText = "";
+            CanvasButoes.Play("ButtonAppear", 0, 0);
         }
          
 
@@ -60,10 +63,11 @@ public class TextSystemScript : MonoBehaviour
         yield return new WaitForSeconds(1f);
 
         ButonReciveScript.intance.GetCorrectAnswer();
-        CanvasButoes.Play("ButtonAppear", 0, 0);
-        if(newString)
+        
+        if(!newString)
         {
-            yield return new WaitForSeconds(timeBetwenQuestions);
+            yield return new WaitForSeconds(10f);//timeBetwenQuestions
+            Debug.Log("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaa");
             GetRandomJoke();
         }
     }
@@ -84,6 +88,7 @@ public class TextSystemScript : MonoBehaviour
 
     public void GetRandomJoke()
     {
+        PanelDeTexto.Play("PanelPiada", 0, 0);
         CurrentJoke = ChooseRandomJoke();
         StartCoroutine(TypeText(Jokes[CurrentJoke], textMeshPro, true));
 
