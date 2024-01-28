@@ -24,7 +24,10 @@ EditorBuildSettings:
     path: Assets/Scenes/WinScenarioFamilyFriendly.unity
     guid: b8219fa93f1939c4da3f693ccb258f88
   - enabled: 1
-    path: Assets/Scenes/GameOverScenario.unity
+    path: Assets/Scenes/GameOverScenarioFriendly.unity
     guid: dbc2ecd9cc4a6014498e1b43034fe3cb
+  - enabled: 1
+    path: Assets/Scenes/GameOverScenarioNotFriendly.unity
+    guid: 61277466c50863e418d059dedd85de3d
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
