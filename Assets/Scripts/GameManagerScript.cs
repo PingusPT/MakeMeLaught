@@ -41,16 +41,9 @@ public class GameManagerScript : MonoBehaviour
     {
         if(CorrectAnswers >= CorretasParaGanhar)
         {
-            Scene scene = SceneManager.GetActiveScene();
-
-            if(scene == SceneManager.GetSceneByName("WinScenarioFamilyFriendly"))
-            {
-                SceneManager.LoadScene("WinScenarioFamilyFriendly");
-            }
-            else
-            {
-                SceneManager.LoadScene("WinScenarioNotFamilyFriendly");
-            }
+           
+             SceneManager.LoadScene("WinScenarioFamilyFriendly");
+            
 
         }
     }
