@@ -41,9 +41,8 @@ public class GameManagerScript : MonoBehaviour
     {
         if(CorrectAnswers >= CorretasParaGanhar)
         {
-           
+
              SceneManager.LoadScene("WinScenarioFamilyFriendly");
-            
 
         }
     }
