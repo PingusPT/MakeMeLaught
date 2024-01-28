@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 87c7bcc125055db488e23ad0279ee025
+guid: 5448e27006209b7428e603cf9051388b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5459829345960798056
-    second: HB-OUTLINE_0
+      213: -5242049666172039111
+    second: micro_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: HB-OUTLINE_0
+      name: micro_0
       rect:
         serializedVersion: 2
-        x: 71
-        y: 63
-        width: 1334
-        height: 236
+        x: 990
+        y: 17
+        width: 182
+        height: 733
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8672f3cdcd535cb40800000000000000
-      internalID: 5459829345960798056
+      spriteID: 9305cd82a9f7047b0800000000000000
+      internalID: -5242049666172039111
       vertices: []
       indices: 
       edges: []
@@ -140,8 +140,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      HB-OUTLINE_0: 5459829345960798056
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
