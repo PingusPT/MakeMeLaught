@@ -1,2 +1,2 @@
-Music Value: _-10
+Music Value: _0
 SoundFX Value: _-10
