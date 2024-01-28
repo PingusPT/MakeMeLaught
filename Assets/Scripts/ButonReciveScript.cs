@@ -123,6 +123,8 @@ public class ButonReciveScript : MonoBehaviour
 
         CanvasButoes.Play("ButtonDisapear", 0, 0);
         PanelDeTexto.Play("PanelPiadaDesaparecer", 0, 0);
+
+        Corect = false;
     }
 
     public IEnumerator TypeText(string fullText, TextMeshProUGUI textMeshPro)
