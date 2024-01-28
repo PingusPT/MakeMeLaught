@@ -2673,6 +2673,9 @@ MonoBehaviour:
   Tomate: {fileID: 8300000, guid: 6234db5ccf2d9874f8a99a82db0fedd5, type: 3}
   FogoSom: {fileID: 8300000, guid: ed566ef9da980e144a50d14711e174a4, type: 3}
   AieSom: {fileID: 8300000, guid: 8f2205cb8e293844f9e7b947e756d847, type: 3}
+  Pedrada: {fileID: 8300000, guid: bf5bbb94ec6082e44bf06cb0a84ab2b1, type: 3}
+  Facada: {fileID: 8300000, guid: bc26a14878bb7c447a1ec97d60742bee, type: 3}
+  CAnnon: {fileID: 8300000, guid: 1e8621df2811df347b421980367e68ff, type: 3}
   zeAnimator: {fileID: 1354350303}
   odeFalar: {fileID: 1354350307}
   oSfx: {fileID: 1354350306}

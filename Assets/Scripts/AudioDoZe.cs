@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class AudioDoZe : MonoBehaviour
 {
-    [SerializeField] AudioClip somFalar, SomBujas, SomFodase, SomOlhaAi, Tomate, FogoSom, AieSom;
+    [SerializeField] AudioClip somFalar, SomBujas, SomFodase, SomOlhaAi, Tomate, FogoSom, AieSom, Pedrada, Facada, CAnnon;
 
     [SerializeField] Animator zeAnimator;
 
@@ -60,4 +60,21 @@ public class AudioDoZe : MonoBehaviour
     {
         oSfx.PlayOneShot(FogoSom);
     }
+
+    private void PedradaClip()
+    {
+        oSfx.PlayOneShot(Pedrada);
+    }
+
+    private void FacadaClip()
+    {
+        oSfx.PlayOneShot(Facada);
+    }
+
+    private void CAnnonClip()
+    {
+        oSfx.PlayOneShot(CAnnon);
+    }
+
+
 }
