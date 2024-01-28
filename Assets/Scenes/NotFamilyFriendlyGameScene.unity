@@ -424,7 +424,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 62.5
+  m_fontSize: 33.55
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1791,17 +1791,50 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textMeshPro: {fileID: 1946369875}
   Jokes:
-  - UM
-  - Dois
-  - tres
-  - quatro
-  - cinco
+  - "What\u2019s the difference between Michael Phelps and Hitler? "
+  - "What\u2019s worse than stubbing your toe?"
+  - Whts a diff. Between a kid and a key
+  - What do you tell a woman with two black eyes?
+  - 'What''s the difference between baby''s and onions? '
+  - "What\u2019s the difference between a baby and a sweet potato?"
+  - What's the difference between me and cancer?
+  - What's the benefit of having a prostitute die on you?
+  - I call my girlfriend Playstation...
+  - What's the difference between Issac Newton and the baby I stabbed to death?
+  - What is the difference between Lamborghini and 10 dea*d children's???
+  - What do 9 out of 10 people enjoy the most?
+  - Why is dark humour unpopular?
+  - 'Two Jews jump off a cliff to see who hits the ground first. Who wins? '
+  - 'An Arab and a Blackman was sitting in the car who drove? '
+  - What do you call a black priest?
+  - What does a canniball call a pregnant woman?
+  - What's the difference between my hobbies and grapes?
+  - I have many jokes about unemployed people...
   PunchLines:
-  - UM
-  - dius
-  - tres
-  - quatro
-  - cinco
+  - Michael Phelps can finish a race.
+  - The Holocaust.
+  - A key doesnt turn me on.
+  - Nothing, you told her twice.
+  - I cry when i cut onions.
+  - About 140 calories.
+  - My dad didn't beat cancer.
+  - The second hour is free.
+  - Because she just turned five.
+  - Issac Newton died a virgin.
+  - I dont have a lambo in my garage
+  - Gangrape.
+  - "Because it\xB4s dark."
+  - Society.
+  - The police.
+  - Holy Shit.
+  - Kinder Surprise.
+  - G.
+  - Sadly none of them work.
+  - An impasta.
+  - I use my hands and fingers.
+  - The black man.
+  - Because he's white
+  - I can make money
   typingSpeed: 0.05
   SpaceLines: 2
   timeBetwenQuestions: 4
