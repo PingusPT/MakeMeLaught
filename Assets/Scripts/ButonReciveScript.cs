@@ -116,14 +116,14 @@ public class ButonReciveScript : MonoBehaviour
         {
             GameManagerScript.intance.ChangeHealth(HealForGood);
         }
-        else
+        if(!Corect)
         {
             GameManagerScript.intance.ChangeHealth(DamageforWrong);
         }
 
         CanvasButoes.Play("ButtonDisapear", 0, 0);
         PanelDeTexto.Play("PanelPiadaDesaparecer", 0, 0);
-
+        saveJoke = joke;
         Corect = false;
     }
 

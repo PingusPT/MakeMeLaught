@@ -1083,6 +1083,8 @@ GameObject:
   - component: {fileID: 769572116}
   - component: {fileID: 769572115}
   - component: {fileID: 769572114}
+  - component: {fileID: 769572120}
+  - component: {fileID: 769572119}
   m_Layer: 0
   m_Name: Camiao
   m_TagString: Untagged
@@ -1255,6 +1257,125 @@ Transform:
   - {fileID: 299202931}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &769572119
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 769572113}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &769572120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 769572113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8ba90b83a3d170498f8f63b98d1b95a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CorrectAnswers: 0
+  CorretasParaGanhar: 10
+  vidasDoZe: 5
+  heathBar: {fileID: 1067248196}
+  animZe: {fileID: 1354350303}
+  Caminhoem: {fileID: 769572117}
+  Roda1: {fileID: 68932800}
+  Roda2: {fileID: 916463580}
+  CanvasButoes: {fileID: 1274777853}
+  src: {fileID: 769572119}
+  SomMorte: {fileID: 8300000, guid: 0eb0f7c4ebc89de46a1e9240b1166879, type: 3}
 --- !u!1 &916463577
 GameObject:
   m_ObjectHideFlags: 0
@@ -1815,7 +1936,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1224132302}
-  - component: {fileID: 1224132301}
   - component: {fileID: 1224132304}
   - component: {fileID: 1224132303}
   m_Layer: 0
@@ -1825,27 +1945,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1224132301
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1224132300}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f8ba90b83a3d170498f8f63b98d1b95a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CorrectAnswers: 0
-  CorretasParaGanhar: 10
-  vidasDoZe: 5
-  heathBar: {fileID: 1067248196}
-  animZe: {fileID: 1354350303}
-  Caminhoem: {fileID: 769572117}
-  Roda1: {fileID: 68932800}
-  Roda2: {fileID: 916463580}
-  CanvasButoes: {fileID: 1274777853}
 --- !u!4 &1224132302
 Transform:
   m_ObjectHideFlags: 0
@@ -2686,6 +2785,9 @@ MonoBehaviour:
   Tomate: {fileID: 8300000, guid: 6234db5ccf2d9874f8a99a82db0fedd5, type: 3}
   FogoSom: {fileID: 8300000, guid: ed566ef9da980e144a50d14711e174a4, type: 3}
   AieSom: {fileID: 8300000, guid: 8f2205cb8e293844f9e7b947e756d847, type: 3}
+  Pedrada: {fileID: 8300000, guid: bf5bbb94ec6082e44bf06cb0a84ab2b1, type: 3}
+  Facada: {fileID: 8300000, guid: bc26a14878bb7c447a1ec97d60742bee, type: 3}
+  CAnnon: {fileID: 8300000, guid: 1e8621df2811df347b421980367e68ff, type: 3}
   zeAnimator: {fileID: 1354350303}
   odeFalar: {fileID: 1354350307}
   oSfx: {fileID: 1354350306}

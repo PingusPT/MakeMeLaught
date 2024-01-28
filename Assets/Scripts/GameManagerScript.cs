@@ -28,6 +28,10 @@ public class GameManagerScript : MonoBehaviour
     [SerializeField]
     Animator CanvasButoes;
 
+    [SerializeField]
+    AudioSource src;
+    [SerializeField]
+    AudioClip SomMorte;
 
     private void Start()
     {
@@ -75,5 +79,16 @@ public class GameManagerScript : MonoBehaviour
     private void DelayDamage()
     {
         animZe.SetTrigger("TakeDamage");
+    }
+
+
+    private void ChangeSceneToFinal()
+    {
+        SceneManager.LoadScene("GameOverScenarioFriendly");
+    }
+
+    private void SomCamiao()
+    {
+        src.PlayOneShot(SomMorte);
     }
 }
