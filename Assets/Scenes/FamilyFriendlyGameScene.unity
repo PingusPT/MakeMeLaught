@@ -1083,6 +1083,7 @@ GameObject:
   - component: {fileID: 769572116}
   - component: {fileID: 769572115}
   - component: {fileID: 769572114}
+  - component: {fileID: 769572119}
   m_Layer: 0
   m_Name: Camiao
   m_TagString: Untagged
@@ -1255,6 +1256,29 @@ Transform:
   - {fileID: 299202931}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &769572119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 769572113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8ba90b83a3d170498f8f63b98d1b95a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CorrectAnswers: 0
+  CorretasParaGanhar: 10
+  vidasDoZe: 5
+  heathBar: {fileID: 1067248196}
+  animZe: {fileID: 1354350303}
+  Caminhoem: {fileID: 769572117}
+  Roda1: {fileID: 68932800}
+  Roda2: {fileID: 916463580}
+  CanvasButoes: {fileID: 1274777853}
+  src: {fileID: 0}
+  SomMorte: {fileID: 0}
 --- !u!1 &916463577
 GameObject:
   m_ObjectHideFlags: 0
@@ -1815,7 +1839,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1224132302}
-  - component: {fileID: 1224132301}
   - component: {fileID: 1224132304}
   - component: {fileID: 1224132303}
   m_Layer: 0
@@ -1825,27 +1848,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1224132301
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1224132300}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f8ba90b83a3d170498f8f63b98d1b95a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CorrectAnswers: 0
-  CorretasParaGanhar: 10
-  vidasDoZe: 5
-  heathBar: {fileID: 1067248196}
-  animZe: {fileID: 1354350303}
-  Caminhoem: {fileID: 769572117}
-  Roda1: {fileID: 68932800}
-  Roda2: {fileID: 916463580}
-  CanvasButoes: {fileID: 1274777853}
 --- !u!4 &1224132302
 Transform:
   m_ObjectHideFlags: 0
