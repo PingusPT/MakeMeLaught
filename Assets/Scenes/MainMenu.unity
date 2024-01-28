@@ -407,7 +407,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lightHumorSceneName: FamilyFriendlyGameScene
   darkHumorSceneName: NotFamilyFriendlyGameScene
-  timerDuration: 3.5
+  timerDuration: 2.5
   MainMenu: {fileID: 109673006}
   OpenCurtains: {fileID: 126704085}
   Curtains: {fileID: 956621784}

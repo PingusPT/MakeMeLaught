@@ -13,7 +13,7 @@ public class JokeLevelSceneLoader : MonoBehaviour
     private void Start()
     {
         // Delay execution by 2 seconds
-        Invoke("EnableDisableObjects", 2f);
+        Invoke("EnableDisableObjects", 1.5f);
     }
 
     private void EnableDisableObjects()
