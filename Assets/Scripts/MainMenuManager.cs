@@ -75,7 +75,7 @@ public class MainMenuManager : MonoBehaviour
     {
         buttonClick.Play();
         Debug.Log("Ir para dark humor");
-        SceneManager.LoadScene(darkHumorSceneName);
+        SceneManager.LoadScene("NotFamilyFriendlyGameScene 1");
     }
 
     //Sair do jogo
