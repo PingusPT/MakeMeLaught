@@ -16,7 +16,7 @@ public class TextSystemScript : MonoBehaviour
     [Header("Variables")]
     public float typingSpeed = 0.05f;
     public int SpaceLines = 2;
-    public float timeBetwenQuestions = 1f;
+    public float timeBetwenQuestions = 4f;
     string currentText = "";
 
     [SerializeField]
@@ -30,15 +30,11 @@ public class TextSystemScript : MonoBehaviour
     void Start()
     {
         intance = this;
+        Invoke("GetRandomJoke", 5f);
+       
     }
 
-    private void Update()
-    {
-        if(Input.GetKeyDown(KeyCode.A))
-        {
-            GetRandomJoke();
-        }
-    }
+    
     public int ChooseRandomJoke()
     {
         return Random.Range(0, Jokes.Length - 1);
@@ -49,7 +45,7 @@ public class TextSystemScript : MonoBehaviour
         if(newString)
         {
             currentText = "";
-            CanvasButoes.Play("ButtonAppear", 0, 0);
+            
         }
          
 
@@ -66,19 +62,22 @@ public class TextSystemScript : MonoBehaviour
         
         if(!newString)
         {
-            yield return new WaitForSeconds(10f);//timeBetwenQuestions
+            yield return new WaitForSeconds(timeBetwenQuestions);//timeBetwenQuestions
             Debug.Log("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaa");
             GetRandomJoke();
+        }
+        else
+        {
+            CanvasButoes.Play("ButtonAppear", 0, 0);
         }
     }
 
     public void AddEnters(int spaces)
     {
-
-        for (int i = 0; i < spaces; i++)
-        {
-            textMeshPro.text += "\n";
-        }
+        currentText += "\n\n";
+        textMeshPro.text = currentText;
+       
+       
     }
 
     public void AddPunchLine(string PunchLine)

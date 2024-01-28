@@ -48,7 +48,7 @@ public class GameManagerScript : MonoBehaviour
     {
         if(valuevida < 0)
         {
-            if(vidasDoZe <= 0)
+            if(vidasDoZe == 0)
             {
                 Caminhoem.SetTrigger("GoCar");
                 Roda1.SetTrigger("GoRoda");
@@ -56,7 +56,7 @@ public class GameManagerScript : MonoBehaviour
             }
             else
             {
-                animZe.SetTrigger("TakeDamage");
+                Invoke("DelayDamage", 1f);
                 vidasDoZe--;
             }
             
@@ -67,5 +67,10 @@ public class GameManagerScript : MonoBehaviour
             heathBar.fillAmount = CorrectAnswers / CorretasParaGanhar;
         }
         
+    }
+
+    private void DelayDamage()
+    {
+        animZe.SetTrigger("TakeDamage");
     }
 }
