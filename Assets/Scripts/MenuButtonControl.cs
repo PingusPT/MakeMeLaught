@@ -32,12 +32,12 @@ public class ButtonControl : MonoBehaviour
     {
         if (cortinasAbrir != null)
         {
-            cortinasAbrir.SetActive(true);
+            cortinasAbrir.SetActive(false);
 
         }
         if (cortinasFechar != null)
         {
-            cortinasFechar.SetActive(false);
+            cortinasFechar.SetActive(true);
 
         }
         Invoke("LoadDelayJokeScene", 3f);
