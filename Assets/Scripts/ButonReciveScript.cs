@@ -22,7 +22,8 @@ public class ButonReciveScript : MonoBehaviour
     [SerializeField]
     int HealForGood = 1;
 
-
+    [SerializeField]
+    Animator CanvasButoes;
 
     int joke = 0;
     int saveJoke;
@@ -107,6 +108,8 @@ public class ButonReciveScript : MonoBehaviour
         {
             GameManagerScript.intance.ChangeHealth(DamageforWrong);
         }
+
+        CanvasButoes.Play("ButtonDisapear", 0, 0);
     }
 
     public IEnumerator TypeText(string fullText, TextMeshProUGUI textMeshPro)

@@ -19,6 +19,8 @@ public class TextSystemScript : MonoBehaviour
     public float timeBetwenQuestions = 1f;
     string currentText = "";
 
+    [SerializeField]
+    Animator CanvasButoes;
 
 
     int CurrentJoke = 0;
@@ -58,7 +60,7 @@ public class TextSystemScript : MonoBehaviour
         yield return new WaitForSeconds(1f);
 
         ButonReciveScript.intance.GetCorrectAnswer();
-
+        CanvasButoes.Play("ButtonAppear", 0, 0);
         if(newString)
         {
             yield return new WaitForSeconds(timeBetwenQuestions);
