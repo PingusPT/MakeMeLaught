@@ -47,7 +47,25 @@ public class ButtonControl : MonoBehaviour
     {
         SceneManager.LoadScene("JokeLevelScene");
     }
+    public void LoadAudioScene()
+    {
+        if (cortinasAbrir != null)
+        {
+            cortinasAbrir.SetActive(false);
 
+        }
+        if (cortinasFechar != null)
+        {
+            cortinasFechar.SetActive(true);
+
+        }
+        Invoke("LoadDelayAudioScene", 3f);
+    }
+
+    private void LoadDelayAudioScene()
+    {
+        SceneManager.LoadScene("AudioMenuTemplate");
+    }
     public void LoadFamilyFriendlyGameScene()
     {
         if (cortinasAbrir != null)

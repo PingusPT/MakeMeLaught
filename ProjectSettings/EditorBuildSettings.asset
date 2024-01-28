@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/JokeLevelScene.unity
     guid: bb0cdb3fa8d308a4aa4bb97256174d08
   - enabled: 1
+    path: Assets/Scenes/AudioMenuTemplate.unity
+    guid: 805a7b3a7eb85ee42a57a01256d3e95c
+  - enabled: 1
     path: Assets/Scenes/FamilyFriendlyGameScene.unity
     guid: 9f5cb375e801fa240a605ac0186cb26a
   - enabled: 1

@@ -9,8 +9,7 @@ public class MainMenuManager : MonoBehaviour
     [SerializeField] string lightHumorSceneName;
     [SerializeField] string darkHumorSceneName;
     [Space]
-    [SerializeField] GameObject humorSelectionWindow;
-    [SerializeField] GameObject audioSettingsWindow;
+   
 
     [Header("Main Menu Opening")]
     [SerializeField] float timerDuration = 5f;
@@ -61,20 +60,7 @@ public class MainMenuManager : MonoBehaviour
         MainMenu.SetActive(false);
     }
 
-    //Abrir menu de audio
-    public void OpenAudioWindow()
-    {
-        buttonClick.Play();
-        audioSettingsWindow.SetActive(true);
-    }
-
-    //Fechar menus
-    public void BackButtonClick()
-    {
-        buttonClick.Play();
-        humorSelectionWindow.SetActive(false);
-        audioSettingsWindow.SetActive(false);
-    }
+    
 
     //Ir para cena de humor leve
     public void GoToLightHumorScene()
