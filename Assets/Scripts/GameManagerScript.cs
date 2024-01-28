@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameManagerScript : MonoBehaviour
 {
@@ -40,7 +41,17 @@ public class GameManagerScript : MonoBehaviour
     {
         if(CorrectAnswers >= CorretasParaGanhar)
         {
-            //Win
+            Scene scene = SceneManager.GetActiveScene();
+
+            if(scene == SceneManager.GetSceneByName("WinScenarioFamilyFriendly"))
+            {
+                SceneManager.LoadScene("WinScenarioFamilyFriendly");
+            }
+            else
+            {
+                SceneManager.LoadScene("WinScenarioNotFamilyFriendly");
+            }
+
         }
     }
 
